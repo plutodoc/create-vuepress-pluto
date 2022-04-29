@@ -1,0 +1,28 @@
+{
+    "name": "create-vuepress-pluto",
+    "version": "0.1.0",
+    "private": false,
+    "scripts": {
+        "build": "node ./src/main.js",
+        "dev": "node ./src/main.js",
+        "fmt": "dprint fmt --config ./config/dprint.json"
+    },
+    "author": "impossible98",
+    "bin": {
+        "create-vuepress-pluto": "./src/main.js"
+    },
+    "dependencies": {
+        "kolorist": "^1.5.1",
+        "minimist": "^1.2.6",
+        "prompts": "^2.4.2"
+    },
+    "description": "Init a VuePress project with Pluto theme",
+    "files": [
+        "src"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "plutodoc/create-vuepress-pluto"
+    }
+}

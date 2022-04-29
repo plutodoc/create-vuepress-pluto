@@ -1,0 +1,24 @@
+{
+    "incremental": true,
+    "typescript": {
+        "indentWidth": 2
+    },
+    "json": {
+        "indentWidth": 4
+    },
+    "toml": {},
+    "includes": [
+        "**/*.{ts,tsx,js,jsx,cjs,mjs,json,toml}"
+    ],
+    "excludes": [
+        "**/node_modules",
+        "**/*-lock.json",
+
+        "**/dist"
+    ],
+    "plugins": [
+        "https://plugins.dprint.dev/typescript-0.67.0.wasm",
+        "https://plugins.dprint.dev/json-0.15.1.wasm",
+        "https://plugins.dprint.dev/toml-0.5.4.wasm"
+    ]
+}
